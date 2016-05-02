@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
-    get 'pages/home', to: 'pages#home'
+  root 'pages#home'
+    
     get 'pages/about', to: 'pages#about'
 
     resources :articles
